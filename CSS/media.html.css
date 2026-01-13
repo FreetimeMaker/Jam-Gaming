@@ -7,42 +7,25 @@ body {
 
 .Home {
     font-size: 3em;
-    color: purple;
+    color: yellow;
     font-weight: bold;
     font-style: italic;
-    font-family: "Pixelify Sans", sans-serif;
+    font-family: "Playwrite AT", sans-serif;
 }
 
-.Quiz {
-    font-size: 3em;
-    color: aqua;
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Roboto", sans-serif;
+.Align {
+    max-width: 100%;
+    text-align: center;
 }
 
-.Info {
-    font-size: 3em;
-    color: pink;
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Anton", sans-serif;
-}
-
-.Media {
-    font-size: 3em;
-    color: orange;
-    font-weight: bold;
-    font-style: italic;
-    font-family: "Playwrite AT", cursive;
-}
-
-.grid {
+.mediaGrid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    align-items: center;
-    grid-gap: 10px;
-    margin-top: 10px;
+    grid-template-columns: 	repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.mediaElement {
+    border: 2px solid pink;
+    padding: 3%;
 }
 
 img {
